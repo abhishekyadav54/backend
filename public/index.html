@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* body{
+        background-image: url(gallery/swans-love-4o.jpg);
+        background-size: cover;
+    } */
+
+    body{
+        background-color: gray;
+    }
+  </style>
+</head>
+<body>
+    <div class="flex justify-center content-center mt-12">
+    <div class=" flex justify-center w-64 content-center bg-gray-300 rounded-3xl shadow-2xl shadow-gray-900 opacity-80 py-4 px-2 border-2 border-pink-300">
+
+        <div class="flex-col justify-center items-center content-center">
+            <h1 class="text-4xl text-center m-5">Sign Up</h1>
+            <form action="/submit" method="POST">
+            <input
+             type="text"
+             id="firstName"
+             name="firstName"
+             placeholder="First name"
+             class="bg-white border-2 border-pink-400 rounded-xl p-2  m-2 shadow-lg cursor-pointer hover:bg-gray-200"
+             ><br>
+            <input
+             type="text"
+             id="lastName"
+             name="lastName"
+             placeholder="Last name"
+             class="bg-white border-2 border-pink-400 rounded-xl p-2  m-2 shadow-lg cursor-pointer hover:bg-gray-200"
+             ><br>
+            <input
+             type="email"
+             id="email"
+             name="email"
+             placeholder="Email"
+             class="bg-white border-2 border-pink-400 rounded-xl p-2  m-2 shadow-lg cursor-pointer hover:bg-gray-200"
+             ><br>
+            <input
+             type="password"
+             id="pass"
+             name="pass"
+             placeholder="Password"
+             class="bg-white border-2 border-pink-400 rounded-xl p-2  m-2 shadow-lg cursor-pointer hover:bg-gray-200"
+             ><br>
+            <input
+             type="password"
+             id="confPass"
+             name="confPass"
+             placeholder="Confirm Password"
+             class="bg-white border-2 border-pink-400 rounded-xl p-2  m-2 shadow-lg cursor-pointer hover:bg-gray-200"
+             ><br>
+            <button
+            type="submit"
+            class="bg-white border-2 border-pink-400   p-2 rounded-xl m-2 shadow-lg hover:bg-gray-200"
+            >Submit</button>
+
+        </form>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
