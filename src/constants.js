@@ -1,3 +1,3 @@
-const DB_NAME = "users"
+const DB_NAME = "users";
 
-export {DB_NAME}
+export {DB_NAME};

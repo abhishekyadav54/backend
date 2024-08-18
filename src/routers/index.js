@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import path, { dirname } from 'path';  
+import path from 'path';  
 import { fileURLToPath } from 'url';  
 
 const __filename = fileURLToPath(import.meta.url);//giving the current module's file path  
